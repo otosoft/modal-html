@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Intro";
+  src: url("../fonts/Intro-regular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "sans-serif", sans-serif;
+  background-color: #000;
+}
+
+.container {
+  height: 100%;
+  max-height: 186px;
+  max-width: 361px;
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.background-container {
+  background-color: #fed650;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 361px;
+  height: 80px;
+}
+
+.text-content {
+  color: black;
+  padding-top: 1%;
+  width: 100%;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 80%;
+  color: #000;
+  text-align: center;
+}
+
+p {
+  font-size: 50%;
+  color: #000;
+  margin-right: 30%;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+b{
+  font-weight: 900;
+}
+
+.p-centro {
+  font-size: 90%;
+}
+
+.row-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.div-rigth {
+  width: 33%;
+}
+
+.div-left {
+  width: 33%;
+  padding-left: 20px;
+}
+
+.cta-button {
+  background-color: #004b9a;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.img-mano{
+  margin-top: -25px;
+  width: 40px;
+}
